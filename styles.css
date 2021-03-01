@@ -1,0 +1,91 @@
+
+
+  body {
+    font-family: Verdana,Geneva,sans-serif;
+    text-align: justify;
+  }
+
+.top-container{
+  background-color: #ffc38b;
+}
+
+.middle-container{
+  background-color: #fff3e2;
+}
+
+.bottom-container{
+  background-color: #dddddd;
+}
+
+.bottom{
+  background-color: #ffc38b;
+}
+
+.bottom2{
+  background-color: #fff3e2;
+}
+
+.patent{
+  background-color: #dddddd;
+}
+
+
+  hr {
+
+    border-style: none;
+    border-top-style: dashed;
+    border-color: grey;
+    border-width: 5px;
+    width: 4%;
+  }
+
+  h1{
+    color: #065c6f;
+    text-align: center;
+
+  }
+
+  h3{
+    color: #637373;
+    text-align: center;
+  }
+
+
+
+.aboutme{
+  text-indent: 50px;
+}
+
+a:any-link {
+  text-decoration: none;
+  color:#64958f;
+  }
+
+
+a:hover{
+  font-weight: bold;
+}
+
+img{
+  border-radius: 100%;
+}
+
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center{
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+form{
+  display: block;
+  text-align: center;
+}
