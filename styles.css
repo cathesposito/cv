@@ -15,11 +15,12 @@ h2{
   text-align: right;
   font-size: 2rem;
   letter-spacing: 3px;
+  cursor: default;
 }
 
 h3{
   text-align: left;
-  font-weight: normal;
+  font-weight: 500;
 }
 h6{
   text-align: center;
@@ -33,6 +34,10 @@ p{
 td{
   padding-right: 20px;
   padding-bottom: 20px;
+}
+
+.hide1, .hide2, .hide3, .hide4, .hide5, .hide5, .hide6, .hide7, .hide8, .hide9, .hide10, .hide11, .hide12 {
+  display: none;
 }
 
 .subtitle{
@@ -89,9 +94,17 @@ a:hover {
   margin: 20px;
 }
 
+.margin-10{
+  padding-right: 30px;
+}
+
 .center-icons{
   color: #ef8172;
   font-size: 1.5rem;
+}
+
+.iconHover{
+  font-size: 1.75rem;
 }
 
 .education{
@@ -120,6 +133,10 @@ a:hover {
   text-align: left;
 }
 
+.rowColor{
+  color: #ef8172;
+}
+
 
 .languages{
   margin-top: 2rem;
@@ -135,8 +152,12 @@ a:hover {
   margin-bottom: 3rem;
 }
 
-.work{
+.work1, .work2, .work3, .work4, .work5, .work6{
   margin-bottom: 3rem;
+}
+
+.dates{
+  font-weight: 600;
 }
 
 .patent{
