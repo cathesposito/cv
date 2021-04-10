@@ -6,6 +6,9 @@ function position(i) {
   var addClass = ".addClassIcon" + i;
   var hide = ".hide" + i;
 
+  $(diploma).css("margin-bottom", "3rem");
+  $(hide).css("display", "none");
+
   $(diploma)
     .hover(function() {
       $(addClass).toggleClass("iconHover");
@@ -66,6 +69,10 @@ function position3(i) {
   var addClass = ".addClassIcon" + i;
   k = 6 + i;
   var hide = ".hide" + k;
+
+  $(hide).css("display", "none");
+
+  $(work).css("margin-bottom", "3rem");
 
   $(work)
     .hover(function() {
