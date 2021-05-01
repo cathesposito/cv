@@ -1,0 +1,198 @@
+body {
+  font-family: "Montserrat";
+  text-align: justify;
+}
+
+h1{
+  color: #4E6388;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+
+h2{
+  color: #0E8DA8;
+  text-align: right;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  cursor: default;
+}
+
+h3{
+  text-align: left;
+  font-weight: 500;
+}
+h6{
+  text-align: center;
+  font-style: italic;
+}
+
+p{
+  font-size: 1rem;
+}
+
+td{
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+tbody{
+  font-size: 1rem;
+  text-align: left;
+}
+
+.subtitle{
+  color: #966767;
+}
+
+/* Nav bar */
+.container{
+  padding: 1% 10%;
+}
+
+a:any-link {
+  text-decoration: none;
+
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.btn{
+  margin-bottom: 1rem;
+}
+
+.hoverB{
+  font-weight: normal;
+}
+
+/* Top con Section */
+.topContainer{
+  background-image: url('cv.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* About me Section */
+.aboutMe{
+  margin-top: 2rem;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 3rem;
+}
+
+.borderRight{
+  border-right-style: solid;
+  text-align: right;
+}
+
+.pic{
+  width: 150px;
+  float: left;
+  margin: 20px;
+}
+
+.margin-10{
+  padding-right: 30px;
+}
+
+.center-icons{
+  color: #ef8172;
+  font-size: 1.5rem;
+}
+
+.iconHover{
+  font-size: 1.75rem;
+}
+
+/* Education Section */
+.education{
+  margin-top: 2rem;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 3rem;
+}
+
+/* Skills Section */
+.skills{
+  margin-top: 2rem;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 3rem;
+}
+
+.tableSkills{
+  border-style: none;
+  border-bottom: #fff;
+  text-align: left;
+}
+
+.rowColor{
+  color: #ef8172;
+}
+
+/* Languages Section */
+.languages{
+  margin-top: 2rem;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 3rem;
+}
+
+/* Work History Page */
+.workHistory{
+  margin-top: 2rem;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 3rem;
+}
+
+.dates{
+  font-weight: 600;
+}
+
+/* Publications Page */
+.patent{
+  margin-top: 2rem;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 3rem;
+}
+
+.papers-j{
+  margin-top: 2rem;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 3rem;
+}
+
+.papers-c{
+  margin-top: 2rem;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 3rem;
+}
+
+/* Questions Page */
+.questions{
+  margin-top: 2rem;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 3rem;
+}
+
+/* Footer Section for every site */
+.footer{
+  color: #ef8172;
+  font-size: 1rem;
+  text-align: center;
+  padding: 1% 10%;
+  background-image: url(footer.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
