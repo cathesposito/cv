@@ -49,6 +49,7 @@ function position2(i) {
   j = 4 + i;
   var hideP = ".hide" + j;
 
+  $(hideP).css("display", "none");
   $(click).click(function() {
     $(hideP).toggle("slow");
   });
