@@ -89,3 +89,11 @@ function position3(i) {
 for (i = 1; i <= 6; i++) {
   position3(i)
 };
+
+// Media query
+function myFunction(){
+  $(".aboutMe, .education, .skills, .languages, .workHistory, .patent, .papers-j, .papers-c").css("padding-left", 10).css("padding-right", 10);
+  $(".links").removeClass("col-2").addClass("col-3");
+  $(".works").removeClass("col-6").addClass("col-7");
+}
+ myFunction()
