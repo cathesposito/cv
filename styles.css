@@ -3,6 +3,21 @@ body {
   text-align: justify;
 }
 
+@media screen and (min-width: 1900px ) {
+  body{
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+
+
+}
+
+@media screen and (min-width: 2500px ) {
+  .links{
+    padding-right: 80px;
+  }
+}
+
 h1{
   color: #4E6388;
   text-align: center;
@@ -52,7 +67,7 @@ tbody{
 
 a:any-link {
   text-decoration: none;
-
+  color: #2e3b7b;
 }
 
 a:hover {
@@ -108,6 +123,10 @@ a:hover {
 
 .iconHover{
   font-size: 1.75rem;
+}
+
+.links{
+  text-align: left;
 }
 
 /* Education Section */
@@ -220,7 +239,7 @@ input[type=submit] {
 
 /* Footer Section for every site */
 .footer{
-  color: #ef8172;
+  color: #2e3b7b;
   font-size: 1rem;
   text-align: center;
   padding: 1% 10%;
